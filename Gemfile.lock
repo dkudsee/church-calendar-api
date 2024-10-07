@@ -125,7 +125,7 @@ DEPENDENCIES
   roda
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.5.1
 
 BUNDLED WITH
-   1.13.6
+   2.5.21

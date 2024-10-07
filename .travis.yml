@@ -1,10 +1,9 @@
 language: ruby
 
-dist: trusty
+dist: bionic
 
 rvm:
-  - 2.2.6
-  - 2.3.1
+  - 2.5.1
 
 install: bundle install --jobs=3 --deployment --without development
 
