@@ -3,7 +3,7 @@ language: ruby
 dist: bionic
 
 rvm:
-  - 2.5.1
+  - 2.7.6
 
 install: bundle install --jobs=3 --deployment --without development
 
