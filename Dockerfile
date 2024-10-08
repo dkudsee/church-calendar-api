@@ -1,8 +1,9 @@
-FROM ruby:2.5.1
+FROM ruby:2.7.6
 
 ENV RAILS_ROOT /app
 ENV RAILS_ENV='production'
 ENV RACK_ENV='production' 
+ENV GOOGLE_RUNTIME_VERSION=2.7.6
 
 WORKDIR ${RAILS_ROOT}
 
